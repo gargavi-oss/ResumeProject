@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { useOutletContext } from 'react-router-dom';
 import html2pdf from 'html2pdf.js';
 
-function TemplateOne() {
+function Templateone() {
   const cvData = useOutletContext();
   useEffect(() => {
     if (document.activeElement) {
@@ -305,4 +305,4 @@ function TemplateOne() {
     </div>
   );
 }
-export default TemplateOne;
+export default Templateone;
