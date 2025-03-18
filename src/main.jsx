@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Layout from './Layout'
 import {  RouterProvider, createBrowserRouter, createRoutesFromElements, Route} from 'react-router-dom';
-import { TemplateOne,TemplateTwo } from './templates';
+import TemplateTwo from './templates/TemplateTwo';
+import TemplateOne from './templates/Templateone';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
